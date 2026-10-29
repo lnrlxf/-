@@ -46,12 +46,17 @@
   "ocr_language": "en-US",
   "ocr_enhance": true,
   "region": {
-    "left": 1456,
-    "top": 833,
-    "width": 1309,
-    "height": 662
+    "left": 985,
+    "top": 436,
+    "width": 852,
+    "height": 438
   },
-  "region_direct": null,
+  "region_direct": {
+    "left": 330,
+    "top": 368,
+    "width": 1207,
+    "height": 1057
+  },
   "region_monitor_interval": 1.0,
   "extract_pattern": "[A-Z0-9]{6}",
   "clipboard_poll_interval": 0.03,
