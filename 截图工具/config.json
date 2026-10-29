@@ -1,0 +1,59 @@
+{
+  "profiles": [
+    {
+      "name": "VALORANT安全模式",
+      "target_window": "VALORANT",
+      "auto_paste": false,
+      "use_direct_input": false,
+      "note": "不向游戏发送任何模拟输入，识别结果放剪贴板后由你手动 Ctrl+V，零封号风险"
+    },
+    {
+      "name": "微信",
+      "target_window": "微信",
+      "auto_paste": true,
+      "use_direct_input": false,
+      "note": "自动切到微信窗口并粘贴"
+    },
+    {
+      "name": "QQ",
+      "target_window": "QQ",
+      "auto_paste": true,
+      "use_direct_input": false,
+      "note": "自动切到QQ窗口并粘贴"
+    },
+    {
+      "name": "通用自动粘贴",
+      "target_window": "",
+      "auto_paste": false,
+      "use_direct_input": false,
+      "note": "只把识别结果放剪贴板，手动到任意应用粘贴"
+    }
+  ],
+  "active_profile": 0,
+  "hotkey_screenshot": "f6",
+  "hotkey_set_region": "f5",
+  "hotkey_toggle_monitor": "f4",
+  "hotkey_set_region_direct": "f2",
+  "hotkey_copy_region": "f3",
+  "hotkey_cycle_profile": "f7",
+  "hotkey_ocr": "f8",
+  "hotkey_arm_clipboard": "f9",
+  "hotkey_paste_now": "f10",
+  "hotkey_list_windows": "f11",
+  "hotkey_quit": "f12",
+  "watch_clipboard_image": "always",
+  "paste_delay": 0.15,
+  "ocr_language": "en-US",
+  "ocr_enhance": true,
+  "region": {
+    "left": 1456,
+    "top": 833,
+    "width": 1309,
+    "height": 662
+  },
+  "region_direct": null,
+  "region_monitor_interval": 1.0,
+  "extract_pattern": "[A-Z0-9]{6}",
+  "clipboard_poll_interval": 0.03,
+  "ocr_warmup": true
+}
